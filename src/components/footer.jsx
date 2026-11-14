@@ -9,7 +9,7 @@ const Footer = () => {
                             Movie
                         </h2>
                         <p className="text-sm leading-relaxed text-gray-400">
-                            Trang web xem phim trực tuyến miễn phí với kho phim đa dạng, cập nhật liên tục các bộ phim mới nhất và chất lượng cao.
+                            Trang web xem phim trực tuyến miễn phí, cập nhật liên tục các bộ phim mới nhất và chất lượng cao.
                         </p>
                         <div className="flex items-center space-x-3 pt-2">
                             <a
