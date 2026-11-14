@@ -62,11 +62,11 @@ function App() {
       }
     })();
   }, []);
-// [] khi load trang no chay dung 1 lan
+  // [] khi load trang no chay dung 1 lan
   return (
     <>
       <MovieProvider>
-        <div className="h-full bg-black text-white min-h-screen pb-10 relative">
+        <div className="h-full bg-black text-white min-h-screen relative">
           <Header onSearch={handleSearch} />
           <Banner />
           {searchData.length === 0 && (
@@ -77,7 +77,7 @@ function App() {
           )}
 
           {searchData.length > 0 && <MovieSearch data={searchData} />}
-          <Footer/>
+          <Footer />
         </div>
       </MovieProvider>
     </>
